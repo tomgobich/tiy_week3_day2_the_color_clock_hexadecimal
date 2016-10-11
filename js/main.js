@@ -60,6 +60,7 @@ function getTime()
 // ------------------------------------------------------------
 function formatTime(timeValue)
 {
+	// Convert time value to hexadecimal
 	timeValue = timeValue.toString(16);
 
 	// Is timeValue less than ten? (1 character long)

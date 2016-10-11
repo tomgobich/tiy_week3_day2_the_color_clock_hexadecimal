@@ -1,10 +1,12 @@
-# The Color Clock
+# The Color Clock - Hexadecimal
 
 ##### The Iron Yard - Week 3, Day 2
 
-For this assignment we were to create a clock utilizing JavaScript. The clock shows the time as a hex value, and the background changes color to that hex value as the time changes every second. I also added a background video to add more detail to the background. 
+This is a slightly altered version of the original assignment "The Color Clock." In this version instead of the time being shown as we are used to it is converted to a hexadecimal value and shown that way.
 
-#### [View Live Preview](https://tomgobich.github.io/tiy_week3_day2_the_color_clock/)
+You can view the original assignment [here](https://github.com/tomgobich/tiy_week3_day2_the_color_clock)
+
+#### [View Live Preview](https://tomgobich.github.io/tiy_week3_day2_the_color_clock_hexadecimal/)
 
 ### Tech Used
 
