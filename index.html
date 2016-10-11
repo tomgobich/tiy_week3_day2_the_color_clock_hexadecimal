@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Color Clock</title>
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	
+	<!-- CSS Reset -->
+	<link rel="stylesheet" href="css/reset.css">
+
+	<!-- Site Styles -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+</head>
+<body>
+
+	<div id="overlay" class="overlay"></div>
+	<div id="backgroundVideo" class="background-video">
+		<video poster="images/citynights.jpg" playsinline autoplay muted loop>
+			<source src="videos/citynights.webm" type="video/webm">
+			<source src="videos/citynights.mp4" type="video/mp4">
+		</video>
+	</div>	
+	<div class="time-wrap">
+		<h1 id="time">Loading...</h1>
+	</div>
+
+	<!-- Main JavaScript File -->
+	<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+// --------------------------------------------------
+// Variables
+// --------------------------------------------------
+$color-background: rgba(#323133, 1);
+$color-content: #F5F7FA;
+
+
+
+// --------------------------------------------------
+// Global Styles
+// --------------------------------------------------
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Share Tech Mono', monospace;
+    background-color: $color-background;
+    color: $color-content;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.4em;
+}
+
+h1 {
+	font-size: 5em;
+	font-weight: bold;
+	text-shadow: 0px 0px 7px rgba(white, .2);
+	text-transform: uppercase;
+	padding: 60px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.overlay {
+	width: 100%;
+	height: 100vh;
+	opacity: 0.95;
+	z-index: -90;
+	transition: all 1s;
+}
+
+.background-video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translate(-50%, -50%);
+}
+
+.time-wrap {
+	background-color: rgba(white, .2);
+	background-image: 
+		radial-gradient(
+			rgba(white, .2) 50%,
+			rgba(white, .3),
+			rgba(white, .6) 98%
+		);
+	border-radius: 15px;
+	border: 1px solid $color-background;
+	box-shadow: 
+		 1px  1px 3px rgba(gray, .05),
+		-1px -1px 3px rgba(gray, .05),
+		 0px  0px 5px #333;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+
